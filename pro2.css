@@ -1,0 +1,47 @@
+#master{
+    margin-left: 25%;
+    margin-right: 30%;
+    display: grid;
+    grid-template-areas:
+            "head head head head head"
+            "list list img img img"
+            "foot foot foot foot foot";
+    height: 40%;
+    width: 50%;
+    position: center;
+    background-color: goldenrod;
+}
+header{
+    text-align: center;
+    grid-area: head;
+    color: crimson;
+    background-color: gray;
+    font-size: 40px;
+
+}
+#kid{
+    grid-area: list;
+    font-size: 15px;
+    text-align: center;
+    background-color: aqua;
+}
+article{
+    grid-area: img;
+    text-align: right;
+}
+footer{
+    grid-area: foot;
+    text-align: center;
+}
+#list{
+    padding-right: 0px;
+    list-style-image: url("img/cake.PNG") ;
+}
+.frame{
+    text-align: center;
+    background-color: lime;
+}
+#part{
+    font-size: 30px;
+
+}
